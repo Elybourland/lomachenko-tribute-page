@@ -1,0 +1,26 @@
+body, ul, li, h1, h2, h3, a {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+}
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+}
+
+header h1 {
+    color: #087733;
+    border: 3px outset #087733;
+    display: inline-block;
+    padding: 5px 10px;
+    text-shadow: 1px 1px #4EB6A6;
+}
+.banner img {
+    max-width: 100%;
+}
