@@ -18,9 +18,30 @@ header h1 {
     color: #087733;
     border: 3px outset #087733;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px;
     text-shadow: 1px 1px #4EB6A6;
 }
 .banner img {
+    position: relative;
     max-width: 100%;
+}
+.enter-matrix {
+    background-color: #087733;
+    position: absolute;
+    padding: 20px;
+    font-size: 50px;
+    box-shadow: 5px 10px #4EB6A6;
+    top: 50%;
+    margin-left: 50px;
+    opacity: 0.5;
+}
+.banner-image {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    opacity: 0.5;
+}
+.banner-image img:hover {
+    position: relative;
+    transform: scale(1.1);
 }
