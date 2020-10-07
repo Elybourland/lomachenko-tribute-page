@@ -44,6 +44,31 @@ header h1 {
     position: relative;
     transform: scale(1.1);
 }
+nav {
+    background-color: #087733;
+    padding: 20px;
+    z-index: 1;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25%;
+}
+nav li a:hover {
+    background-color: #4EB6A6;
+}
 .videos {
     text-align: center;
     margin: 80px 0;
@@ -69,7 +94,7 @@ header h1 {
         }
         50% {
             background-color: #05491f;
-            top: 120%;
+            top: 100%;
         }
         100% {
             background-color: #087733;
