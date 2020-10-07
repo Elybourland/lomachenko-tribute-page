@@ -13,7 +13,6 @@ header {
     z-index: 1;
     width: 100%;
 }
-
 header h1 {
     color: #087733;
     border: 3px outset #087733;
@@ -44,6 +43,19 @@ header h1 {
 .banner-image img:hover {
     position: relative;
     transform: scale(1.1);
+}
+.videos {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.videos li {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5%;
+}
+.videos li iframe {
+    max-width: 100%;
 }
 #matrix {
     animation-name: color;
