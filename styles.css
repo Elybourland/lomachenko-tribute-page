@@ -45,3 +45,18 @@ header h1 {
     position: relative;
     transform: scale(1.1);
 }
+#matrix {
+    animation-name: color;
+    animation-duration: 10s;
+}
+    @keyframes color {
+        0% {
+            background-color: black;
+        }
+        50% {
+            background-color: #05491f;
+        }
+        100% {
+            background-color: #087733;
+        }
+    }
