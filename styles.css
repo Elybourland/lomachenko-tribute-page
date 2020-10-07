@@ -60,6 +60,7 @@ header h1 {
 #matrix {
     animation-name: color;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
     @keyframes color {
         0% {
@@ -78,6 +79,7 @@ header h1 {
 .banner-image img {
     animation-name: move;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
     }
     @keyframes move {
         0% {
