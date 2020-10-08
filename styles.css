@@ -23,6 +23,7 @@ header h1 {
 .banner img {
     position: relative;
     max-width: 100%;
+    margin-bottom: -4px;
 }
 .enter-matrix {
     background-color: #087733;
@@ -46,7 +47,7 @@ header h1 {
 }
 nav {
     background-color: #087733;
-    padding: 20px;
+    padding: 25px;
     z-index: 1;
 }
 nav ul {
