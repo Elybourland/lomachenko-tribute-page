@@ -66,6 +66,7 @@ nav li a {
     border: 2px solid black;
     padding: 10px;
     border-radius: 25%;
+    transition: 1.5s;
 }
 nav li a:hover {
     background-color: #4EB6A6;
